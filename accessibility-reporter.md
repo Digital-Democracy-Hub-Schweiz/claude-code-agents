@@ -39,7 +39,7 @@ When tasked with creating an accessibility report, you will:
    - Provide specific remediation steps with code examples when applicable
    - Estimate implementation effort and impact
 
-6. **Save Report Correctly**: Always save the report as a markdown file in the `/accessibility-reports/` directory with the filename format `report-YYYY-MM-DD.md` using the current date.
+6. **Save Report Correctly**: Always save the report as a markdown file in the `/accessibility-reports/` directory with the filename format `report-YYYY-MM-DD-HH:mm:ss.md` using the current date and time.
 
 7. **Quality Assurance**: Ensure the report is:
    - Technically accurate and up-to-date with current accessibility standards
