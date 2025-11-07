@@ -13,6 +13,11 @@ Claude Code ist ein KI-gestützter Entwicklungsassistent für dein Terminal/Ed
 npm install -g @anthropic-ai/claude-code
 ```
 
+oder prüfe, ob ein Update verfügbar ist mit: 
+```bash
+claude update
+```
+
 ### Start im Projekt
 ```bash
 cd /path/to/your/project
@@ -33,6 +38,50 @@ claude
 - „Was hat sich in den letzten Commits geändert?“
 - „Refactore `utils/date.ts` und erhöhe die Testabdeckung.“
 - „Erstelle Release Notes aus dem Git-Log.“
+
+
+## Nützliche Tipps mit Claude Code: 
+
+### 1. Initialisieren
+Initialisiere Claude Code in einem Projekt
+
+```bash
+claude
+/init
+```
+erstellt eine Datei "CLAUDE.md" anhand der vorgegebenen Projektstruktur
+
+### 2. Session Management 
+Du kannst mit folgendem Befehl eine alte Session wiederherstellen. 
+```bash
+claude --resume
+```
+
+### 3. Bash Commands & Permissions
+In Claude Code können auch verschiedene Commands verwendet werden.
+![Claude Code Permissions](/pictures/permissions.png)
+Nützliche Commands sind: 
+- git add:*
+- git commit:*
+- git push:*
+- cat:*
+- ls:*
+- curl:*
+
+### 4. Todo Listen
+Gib Claude Code den Auftrag einen Plan zu erstellen, wie die Aufgabe gelöst werden soll. Das hilft vor allem bei grösseren Code Aufgaben die Qualität von Claude Code zu gewährleisten. 
+
+```text 
+Let's build an MVP of the webapp described in docs/mvp_concept.md. Frist, let's create an engineering implementation plan for the MVP features. Output it in docs/mvp_eng.plan.md
+```
+
+### 5. Dokumentationen
+verwenden in Claude den folgenden Befehl: 
+```text 
+Explore project and help me understand the strcuture and workflows of the app. Save your findings in a markdown file in the folder /docs.
+```
+
+
 
 ### Subagents (kurzer Vorgeschmack)
 Subagents sind spezialisierte KI-Helfer mit eigener Beschreibung, eigenen Tools und eigenem Systemprompt. Sie können projektweit oder benutzerweit verfügbar sein und gezielt für Aufgaben wie Code-Review, Accessibility-Checks oder Security-Scans genutzt werden.
