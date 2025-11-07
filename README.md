@@ -1,6 +1,8 @@
 # claude-code-agents
 Unsere fleissigsten Mitarbeitenden
 
+Code Agents © 2025 by Sandro Scalco is licensed under CC BY-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/ 
+
 ## Claude Code – Überblick und Schnellstart
 
 ### Was ist Claude Code?
